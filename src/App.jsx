@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
-import QuizApp from "./components/QuizApp";
+import Header from "./Components/Header";
+import Quiz from "./Components/Quiz";
 
 function App() {
   return (
     <div>
       <Header />
-      <QuizApp />
+      <main>
+        <Quiz />
+      </main>
     </div>
   );
 }

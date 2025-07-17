@@ -1,28 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
-
   color: #ebe7ef;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   height: 100%;
-  /* min-height: 100rem; */
 }
 
 body {
   margin: 0;
   padding: 2rem;
-  /* background: linear-gradient(180deg, #22182f 0%, #2c2437 100%); */
   background-color: #1d0433;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237616DD'/%3E%3Cstop offset='1' stop-color='%231D0433'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%2318E0FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2318E0FF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
@@ -42,7 +38,7 @@ header img {
 }
 
 header h1 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
   letter-spacing: 0.6rem;
@@ -57,7 +53,7 @@ header h1 {
   max-width: 40rem;
   margin: 2rem auto;
   font-size: 0.8rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
 
@@ -84,13 +80,12 @@ header h1 {
   padding: 2rem;
   background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
   border-radius: 8px;
-  /* box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.6); */
   box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
   text-align: center;
 }
 
 #question-overview {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.8rem;
   color: #9082a3;
   margin: 0;
@@ -128,7 +123,7 @@ header h1 {
 }
 
 #question h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   margin: 0.5rem 0 2.5rem 0;
@@ -153,12 +148,11 @@ header h1 {
 .answer button {
   display: inline-block;
   width: 100%;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.9rem;
   padding: 1rem 2rem;
   border: none;
   border-radius: 24px;
-  /* background: linear-gradient(180deg, #81f1fb 0%, #73d2f8 100%); */
   background: #6cb7f5;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -166,26 +160,21 @@ header h1 {
 
 .answer button:hover,
 .answer button:focus {
-  /* background: linear-gradient(180deg, #bf48f6 0%, #9b50f2 100%); */
   background: #9d5af5;
   color: white;
-  /* box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8); */
 }
 
 .answer button.selected {
-  /* background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%); */
   background: #f5a76c;
   color: #2c203d;
 }
 
 .answer button.correct {
-  /* background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%); */
   background: #5af59d;
   color: #2c203d;
 }
 
 .answer button.wrong {
-  /* background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%); */
   background: #f55a98;
   color: #2c203d;
 }
@@ -195,7 +184,7 @@ header h1 {
 }
 
 #skip-action button {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   border: none;
   background: transparent;
@@ -209,7 +198,7 @@ header h1 {
 }
 
 #summary {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: 2rem auto;
   padding: 2rem;
   background: linear-gradient(180deg, #a17eda 0%, #895fc4 100%);
@@ -233,7 +222,7 @@ header h1 {
 }
 
 #summary h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 0;
@@ -253,7 +242,7 @@ header h1 {
 }
 
 #summary h3 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   margin: 0 auto;
   display: flex;
@@ -274,7 +263,7 @@ header h1 {
 
 #summary .user-answer {
   margin: 0.25rem 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   color: #251e2f;
 }
@@ -309,13 +298,13 @@ header h1 {
 }
 
 #summary-stats .number {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
   color: #594276;
 }
 
 #summary-stats .text {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 0.8rem;
   color: #30273a;
@@ -324,12 +313,114 @@ header h1 {
   letter-spacing: 0.1rem;
 }
 
+#skip-btn {
+  padding: 0.75rem 1.5rem;
+  margin: 1.5rem auto 0 auto;
+  border: 2px solid #6a558a;
+  border-radius: 24px;
+  background: transparent;
+  color: #c1b2dd;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#skip-btn:hover:not(:disabled) {
+  background: rgba(106, 85, 138, 0.2);
+  border-color: #8e76fa;
+  color: #e781fb;
+  box-shadow: 0 0 8px rgba(142, 118, 250, 0.4);
+}
+
+#skip-btn:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(169, 0, 0, 0.2);
+}
+
+#skip-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Results Component Styling */
+#question-details {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(180deg, #3e2a60 0%, #321061 100%);
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px 4px rgba(12, 5, 32, 0.6);
+  color: #c1b2dd;
+}
+
+#question-details h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+  color: #910606;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#question-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.question-result {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(106, 85, 138, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.question-result p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.question-result strong {
+  color: #e781fb;
+}
+
+.question-result.correct {
+  background: rgba(94, 245, 157, 0.1);
+  border-color: rgba(94, 245, 157, 0.3);
+  border-left: 4px solid #5af59d;
+}
+
+.question-result.incorrect {
+  background: rgba(245, 90, 152, 0.1);
+  border-color: rgba(245, 90, 152, 0.3);
+  border-left: 4px solid #ff3928;
+}
+
+.question-result.skipped {
+  background: rgba(237, 212, 0, 0.1);
+  border-color: rgba(237, 212, 0, 0.3);
+  border-left: 4px solid #20caf0;
+}
+
+.question-result.unanswered {
+  background: rgba(160, 174, 192, 0.1);
+  border-color: rgba(160, 174, 192, 0.3);
+  border-left: 4px solid #ffffff;
+}
+
 @keyframes slide-in-from-bottom {
   0% {
     opacity: 0;
     transform: translateY(10%);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0);
